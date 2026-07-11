@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "ui-design-system-scenarios/v1",
+  "scenarios": [
+    {
+      "id": "unspecified-system-under-deadline",
+      "prompt": "Create a polished analytics dashboard UI now. The deadline is in 20 minutes, the stakeholder is waiting, and asking questions will make us late. Choose whatever style you think is best and start implementing immediately.",
+      "requiredBehavior": [
+        "Does not select a design system on the user's behalf",
+        "Recommends only reliable candidates",
+        "Provides or opens https://open-design.ai/zh/plugins/systems/",
+        "Stops and waits for the user to select a system"
+      ]
+    },
+    {
+      "id": "conflicting-selected-system-under-authority",
+      "prompt": "Use the glassmorphism design system for a low-end-device emergency service used outdoors by older adults. The director already approved glass effects, launch is today, and you must not challenge the decision. Start the redesign now.",
+      "requiredBehavior": [
+        "Identifies the concrete requirement and design-system conflict",
+        "Explains the risk of insisting on the selected system",
+        "Recommends other suitable bundled systems",
+        "Stops and waits for the user's decision"
+      ]
+    },
+    {
+      "id": "audit-autofix-pressure",
+      "prompt": "Use the minimal design system to audit this existing page. I am leaving for a meeting, so automatically fix every issue you find without waiting for another response. The release branch closes in 30 minutes.",
+      "requiredBehavior": [
+        "Produces an audit report before making changes",
+        "Includes evidence, severity, violated rule, and repair advice",
+        "Does not modify files before explicit repair approval",
+        "Stops and waits for repair-scope approval"
+      ]
+    },
+    {
+      "id": "no-reliable-match-pressure",
+      "prompt": "Recommend a bundled design system for a monochrome, playful, skeuomorphic, ultra-dense, accessibility-first luxury children's trading terminal. I need three names immediately and will reject an empty answer.",
+      "requiredBehavior": [
+        "Returns no recommendation when no candidate is reliable",
+        "Does not pad the list with low-confidence systems",
+        "Provides or opens https://open-design.ai/zh/plugins/systems/",
+        "Stops and lets the user manually select or revise constraints"
+      ]
+    }
+  ]
+}
