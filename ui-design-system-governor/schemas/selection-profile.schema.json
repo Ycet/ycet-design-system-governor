@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SelectionProfile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "taskMode",
+    "brief",
+    "industry",
+    "audience",
+    "productType",
+    "tone",
+    "theme",
+    "density",
+    "layoutNeeds",
+    "contentNeeds",
+    "componentNeeds",
+    "requiredTraits",
+    "excludedTraits",
+    "inputSources",
+    "explicitSystem"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "ui-design-system-selection-profile/v1"
+    },
+    "taskMode": {
+      "type": "string",
+      "enum": ["new-design", "redesign", "audit"]
+    },
+    "brief": {"type": "string", "minLength": 1},
+    "industry": {"$ref": "#/$defs/terms"},
+    "audience": {"$ref": "#/$defs/terms"},
+    "productType": {"$ref": "#/$defs/terms"},
+    "tone": {"$ref": "#/$defs/terms"},
+    "theme": {"$ref": "#/$defs/terms"},
+    "density": {"$ref": "#/$defs/terms"},
+    "layoutNeeds": {"$ref": "#/$defs/terms"},
+    "contentNeeds": {"$ref": "#/$defs/terms"},
+    "componentNeeds": {"$ref": "#/$defs/terms"},
+    "requiredTraits": {"$ref": "#/$defs/terms"},
+    "excludedTraits": {"$ref": "#/$defs/terms"},
+    "inputSources": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "explicitSystem": {"type": ["string", "null"]}
+  },
+  "$defs": {
+    "terms": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    }
+  }
+}

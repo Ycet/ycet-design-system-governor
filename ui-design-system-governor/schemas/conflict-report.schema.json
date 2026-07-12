@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConflictReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "system",
+    "conflicts",
+    "alternatives",
+    "decisions",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "ui-design-system-conflict-report/v1"
+    },
+    "system": {"$ref": "#/$defs/system"},
+    "conflicts": {
+      "type": "array",
+      "items": {"type": "object"},
+      "minItems": 1
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["switch-system", "keep-current-system", "adjust-requirements", "other"]
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "const": "awaiting-user-decision"
+    }
+  },
+  "$defs": {
+    "system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "assetVersion"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "assetVersion": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
