@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "ui-design-system-selection-profile/v1",
+  "taskMode": "new-design",
+  "brief": "Create a calm, dark analytics dashboard for technical operators.",
+  "industry": ["backend-data"],
+  "audience": ["technical-operators"],
+  "productType": ["analytics-dashboard"],
+  "tone": ["calm", "professional"],
+  "theme": ["dark"],
+  "density": ["compact"],
+  "layoutNeeds": ["dashboard-grid"],
+  "contentNeeds": ["data-visualization"],
+  "componentNeeds": ["tables", "charts", "filters"],
+  "requiredTraits": [],
+  "excludedTraits": [],
+  "inputSources": [],
+  "explicitSystem": null
+}
