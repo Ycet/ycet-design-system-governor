@@ -44,7 +44,22 @@
     "excludedTraits": {"$ref": "#/$defs/terms"},
     "inputSources": {
       "type": "array",
-      "items": {"type": "object"}
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "value", "accessStatus"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["project", "code", "screenshot", "design-file", "url", "figma", "document", "other"]
+          },
+          "value": {"type": "string", "minLength": 1},
+          "accessStatus": {
+            "type": "string",
+            "enum": ["accessible", "degraded", "unavailable"]
+          }
+        }
+      }
     },
     "explicitSystem": {"type": ["string", "null"]}
   },

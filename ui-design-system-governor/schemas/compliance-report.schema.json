@@ -24,16 +24,39 @@
     "system": {"$ref": "#/$defs/system"},
     "machineChecks": {
       "type": "array",
-      "items": {"type": "object"}
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "status"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "status": {
+            "type": "string",
+            "enum": ["verified", "agent-judgment", "degraded-unverified", "user-approved-deviation"]
+          }
+        }
+      }
     },
     "agentReviews": {
       "type": "array",
-      "items": {"type": "object"}
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "status"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "status": {
+            "type": "string",
+            "enum": ["verified", "agent-judgment", "degraded-unverified", "user-approved-deviation"]
+          }
+        }
+      }
     },
     "findings": {
       "type": "array",
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "required": [
           "severity",
           "ruleId",
@@ -49,7 +72,7 @@
             "enum": ["critical", "high", "medium", "low"]
           },
           "ruleId": {"type": "string", "minLength": 1},
-          "evidence": {},
+          "evidence": {"type": "string", "minLength": 1},
           "reason": {"type": "string", "minLength": 1},
           "recommendation": {"type": "string", "minLength": 1},
           "confidence": {"type": "number", "minimum": 0, "maximum": 1},
@@ -65,8 +88,32 @@
         }
       }
     },
-    "diffSummary": {"type": "object"}
+    "diffSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["before", "after", "modified"],
+      "properties": {
+        "before": {"type": "string", "minLength": 1},
+        "after": {"type": ["string", "null"], "minLength": 1},
+        "modified": {"type": "boolean"}
+      }
+    }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"status": {"const": "review-required"}},
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "diffSummary": {
+            "properties": {"modified": {"const": false}}
+          }
+        }
+      }
+    }
+  ],
   "$defs": {
     "system": {
       "type": "object",

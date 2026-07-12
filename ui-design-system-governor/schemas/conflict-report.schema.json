@@ -19,12 +19,48 @@
     "system": {"$ref": "#/$defs/system"},
     "conflicts": {
       "type": "array",
-      "items": {"type": "object"},
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["requirement", "rule", "risks"],
+        "properties": {
+          "requirement": {"type": "string", "minLength": 1},
+          "rule": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "summary"],
+            "properties": {
+              "id": {"type": "string", "minLength": 1},
+              "summary": {"type": "string", "minLength": 1}
+            }
+          },
+          "risks": {
+            "type": "object",
+            "additionalProperties": false,
+            "minProperties": 1,
+            "properties": {
+              "visual": {"type": "string", "minLength": 1},
+              "usability": {"type": "string", "minLength": 1},
+              "brand": {"type": "string", "minLength": 1},
+              "implementation": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      },
       "minItems": 1
     },
     "alternatives": {
       "type": "array",
-      "items": {"type": "object"}
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["systemId", "reason"],
+        "properties": {
+          "systemId": {"type": "string", "minLength": 1},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      },
+      "minItems": 1
     },
     "decisions": {
       "type": "array",
@@ -32,6 +68,8 @@
         "type": "string",
         "enum": ["switch-system", "keep-current-system", "adjust-requirements", "other"]
       },
+      "minItems": 4,
+      "maxItems": 4,
       "uniqueItems": true
     },
     "status": {

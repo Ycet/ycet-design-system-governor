@@ -19,6 +19,8 @@ _SCHEMA_VERSIONS = {
     "compliance-report": "ui-design-system-compliance-report/v1",
 }
 _TASK_MODES = {"new-design", "redesign", "audit"}
+_INPUT_KINDS = {"project", "code", "screenshot", "design-file", "url", "figma", "document", "other"}
+_ACCESS_STATES = {"accessible", "degraded", "unavailable"}
 _ENFORCEMENT = {"machine-enforced", "agent-review", "explicit-prohibition", "preference"}
 _DECISIONS = {"switch-system", "keep-current-system", "adjust-requirements", "other"}
 _REPORT_STATES = {"review-required", "compliant", "repair-approved", "repair-complete"}
@@ -67,6 +69,33 @@ _COMPLIANCE_FIELDS = (
     "findings",
     "diffSummary",
 )
+_INPUT_SOURCE_FIELDS = ("kind", "value", "accessStatus")
+_RULE_FIELDS = (
+    "id",
+    "category",
+    "scope",
+    "enforcement",
+    "evidence",
+    "source",
+    "location",
+    "confidence",
+    "warnings",
+)
+_CONFLICT_ITEM_FIELDS = ("requirement", "rule", "risks")
+_CONFLICT_RULE_FIELDS = ("id", "summary")
+_RISK_FIELDS = {"visual", "usability", "brand", "implementation"}
+_ALTERNATIVE_FIELDS = ("systemId", "reason")
+_FINDING_FIELDS = (
+    "severity",
+    "ruleId",
+    "evidence",
+    "reason",
+    "recommendation",
+    "confidence",
+    "verificationStatus",
+)
+_CHECK_FIELDS = ("name", "status")
+_DIFF_FIELDS = ("before", "after", "modified")
 
 
 def _error(path: str, message: str) -> None:
@@ -101,7 +130,7 @@ def _required(value: dict[str, Any], fields: tuple[str, ...], path: str = "$") -
 
 
 def _enum(value: Any, allowed: set[str], path: str) -> None:
-    if value not in allowed:
+    if not isinstance(value, str) or value not in allowed:
         _error(path, f"expected one of {sorted(allowed)}")
 
 
@@ -117,6 +146,23 @@ def _object_array(value: Any, path: str) -> list[Any]:
     for index, item in enumerate(items):
         _object(item, f"{path}[{index}]")
     return items
+
+
+def _nonempty_array(value: Any, path: str) -> list[Any]:
+    items = _array(value, path)
+    if not items:
+        _error(path, "expected a non-empty array")
+    return items
+
+
+def _confidence(value: Any, path: str) -> None:
+    if isinstance(value, bool) or not isinstance(value, (int, float)) or not 0 <= value <= 1:
+        _error(path, "expected a number from 0 to 1")
+
+
+def _boolean(value: Any, path: str) -> None:
+    if not isinstance(value, bool):
+        _error(path, "expected a boolean")
 
 
 def _version(value: dict[str, Any], contract: str) -> None:
@@ -214,7 +260,12 @@ def validate_selection_profile(value: Any) -> dict[str, Any]:
     _string(profile["brief"], "$.brief")
     for field in _SELECTION_FIELDS[3:14]:
         _string_array(profile[field], f"$.{field}")
-    _object_array(profile["inputSources"], "$.inputSources")
+    for index, source in enumerate(_object_array(profile["inputSources"], "$.inputSources")):
+        base = f"$.inputSources[{index}]"
+        _required(source, _INPUT_SOURCE_FIELDS, base)
+        _enum(source["kind"], _INPUT_KINDS, f"{base}.kind")
+        _string(source["value"], f"{base}.value")
+        _enum(source["accessStatus"], _ACCESS_STATES, f"{base}.accessStatus")
     if profile["explicitSystem"] is not None:
         _string(profile["explicitSystem"], "$.explicitSystem")
     return profile
@@ -228,13 +279,24 @@ def validate_design_rule_bundle(value: Any) -> dict[str, Any]:
     for index, path in enumerate(_string_array(bundle["files"], "$.files")):
         _relative_text(path, f"$.files[{index}]")
     _object_array(bundle["tokens"], "$.tokens")
+    rule_ids: set[str] = set()
     for index, rule in enumerate(_object_array(bundle["rules"], "$.rules")):
-        path = f"$.rules[{index}].enforcement"
-        if "enforcement" not in rule:
-            _error(path, "required field is missing")
-        _enum(rule["enforcement"], _ENFORCEMENT, path)
-        if "source" in rule:
-            _relative_text(rule["source"], f"$.rules[{index}].source")
+        base = f"$.rules[{index}]"
+        _required(rule, _RULE_FIELDS, base)
+        _string(rule["id"], f"{base}.id")
+        if rule["id"] in rule_ids:
+            _error(f"{base}.id", "rule id must be unique")
+        rule_ids.add(rule["id"])
+        _string(rule["category"], f"{base}.category")
+        scope = _string_array(rule["scope"], f"{base}.scope")
+        if not scope:
+            _error(f"{base}.scope", "expected a non-empty array")
+        _enum(rule["enforcement"], _ENFORCEMENT, f"{base}.enforcement")
+        _string(rule["evidence"], f"{base}.evidence")
+        _relative_text(rule["source"], f"{base}.source")
+        _object(rule["location"], f"{base}.location")
+        _confidence(rule["confidence"], f"{base}.confidence")
+        _array(rule["warnings"], f"{base}.warnings")
     _array(bundle["warnings"], "$.warnings")
     _object_array(bundle["approvedDeviations"], "$.approvedDeviations")
     return bundle
@@ -245,12 +307,35 @@ def validate_conflict_report(value: Any) -> dict[str, Any]:
     _required(report, _CONFLICT_FIELDS)
     _version(report, "conflict-report")
     _system(report["system"])
-    _object_array(report["conflicts"], "$.conflicts")
-    _object_array(report["alternatives"], "$.alternatives")
-    for index, decision in enumerate(_string_array(report["decisions"], "$.decisions")):
+    conflicts = _object_array(_nonempty_array(report["conflicts"], "$.conflicts"), "$.conflicts")
+    for index, conflict in enumerate(conflicts):
+        base = f"$.conflicts[{index}]"
+        _required(conflict, _CONFLICT_ITEM_FIELDS, base)
+        _string(conflict["requirement"], f"{base}.requirement")
+        rule = _object(conflict["rule"], f"{base}.rule")
+        _required(rule, _CONFLICT_RULE_FIELDS, f"{base}.rule")
+        _string(rule["id"], f"{base}.rule.id")
+        _string(rule["summary"], f"{base}.rule.summary")
+        risks = _object(conflict["risks"], f"{base}.risks")
+        if not risks:
+            _error(f"{base}.risks", "expected at least one risk")
+        extras = sorted(set(risks) - _RISK_FIELDS)
+        if extras:
+            _error(f"{base}.risks.{extras[0]}", "unexpected risk category")
+        for risk, description in risks.items():
+            _string(description, f"{base}.risks.{risk}")
+    alternatives = _object_array(_nonempty_array(report["alternatives"], "$.alternatives"), "$.alternatives")
+    for index, alternative in enumerate(alternatives):
+        base = f"$.alternatives[{index}]"
+        _required(alternative, _ALTERNATIVE_FIELDS, base)
+        _string(alternative["systemId"], f"{base}.systemId")
+        _string(alternative["reason"], f"{base}.reason")
+    decisions = _string_array(_nonempty_array(report["decisions"], "$.decisions"), "$.decisions")
+    for index, decision in enumerate(decisions):
         _enum(decision, _DECISIONS, f"$.decisions[{index}]")
-    if report["status"] != "awaiting-user-decision":
-        _error("$.status", "expected 'awaiting-user-decision'")
+    if len(decisions) != len(_DECISIONS) or set(decisions) != _DECISIONS:
+        _error("$.decisions", "expected each allowed decision exactly once")
+    _enum(report["status"], {"awaiting-user-decision"}, "$.status")
     return report
 
 
@@ -260,14 +345,26 @@ def validate_compliance_report(value: Any) -> dict[str, Any]:
     _version(report, "compliance-report")
     _enum(report["status"], _REPORT_STATES, "$.status")
     _system(report["system"])
-    _object_array(report["machineChecks"], "$.machineChecks")
-    _object_array(report["agentReviews"], "$.agentReviews")
+    for field in ("machineChecks", "agentReviews"):
+        for index, check in enumerate(_object_array(report[field], f"$.{field}")):
+            base = f"$.{field}[{index}]"
+            _required(check, _CHECK_FIELDS, base)
+            _string(check["name"], f"{base}.name")
+            _enum(check["status"], _VERIFICATION_STATES, f"{base}.status")
     for index, finding in enumerate(_object_array(report["findings"], "$.findings")):
         base = f"$.findings[{index}]"
-        for field in ("severity", "verificationStatus"):
-            if field not in finding:
-                _error(f"{base}.{field}", "required field is missing")
+        _required(finding, _FINDING_FIELDS, base)
         _enum(finding["severity"], _SEVERITIES, f"{base}.severity")
+        for field in ("ruleId", "evidence", "reason", "recommendation"):
+            _string(finding[field], f"{base}.{field}")
+        _confidence(finding["confidence"], f"{base}.confidence")
         _enum(finding["verificationStatus"], _VERIFICATION_STATES, f"{base}.verificationStatus")
-    _object(report["diffSummary"], "$.diffSummary")
+    diff = _object(report["diffSummary"], "$.diffSummary")
+    _required(diff, _DIFF_FIELDS, "$.diffSummary")
+    _string(diff["before"], "$.diffSummary.before")
+    if diff["after"] is not None:
+        _string(diff["after"], "$.diffSummary.after")
+    _boolean(diff["modified"], "$.diffSummary.modified")
+    if report["status"] == "review-required" and diff["modified"]:
+        _error("$.diffSummary.modified", "review-required reports cannot claim modifications")
     return report
