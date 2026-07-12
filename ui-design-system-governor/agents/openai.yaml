@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Design System Governor"
+  short_description: "Apply and audit UI with bundled design systems"
+  default_prompt: "Use $ui-design-system-governor to redesign this page with a confirmed design system."
