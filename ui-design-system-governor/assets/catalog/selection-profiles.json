@@ -1,0 +1,6044 @@
+{
+  "profiles": [
+    {
+      "aliases": [
+        "agentic"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "agentic",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed",
+        "minimal"
+      ],
+      "tones": [
+        "distinctive",
+        "calm",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "airbnb"
+      ],
+      "audiences": [
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "product-cards",
+        "filters",
+        "checkout-forms"
+      ],
+      "contentNeeds": [
+        "product-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "airbnb",
+      "industries": [
+        "e-commerce-retail"
+      ],
+      "layouts": [
+        "catalog-grid",
+        "mobile-first"
+      ],
+      "productTypes": [
+        "e-commerce"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light"
+      ],
+      "tones": [
+        "commercial",
+        "friendly",
+        "e-commerce-retail"
+      ]
+    },
+    {
+      "aliases": [
+        "airtable"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels",
+        "tables"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "airtable",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "ant"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "ant",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "apple"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "apple",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "application"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "application",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell",
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "enterprise-product",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "arc",
+        "arc-browser"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "arc",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "artistic"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "artistic",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "atelier-zero"
+      ],
+      "audiences": [
+        "clients",
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "project-cards"
+      ],
+      "contentNeeds": [
+        "case-studies"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "atelier-zero",
+      "industries": [
+        "creative-studio"
+      ],
+      "layouts": [
+        "portfolio-grid"
+      ],
+      "productTypes": [
+        "studio-portfolio"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "print-inspired",
+        "light"
+      ],
+      "tones": [
+        "editorial",
+        "refined",
+        "editorial-studio"
+      ]
+    },
+    {
+      "aliases": [
+        "bento"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "navigation",
+        "cards"
+      ],
+      "contentNeeds": [
+        "mixed-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "bento",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "structured-grid"
+      ],
+      "productTypes": [
+        "content-platform"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "neutral"
+      ],
+      "tones": [
+        "structured",
+        "layout-structure"
+      ]
+    },
+    {
+      "aliases": [
+        "binance",
+        "binance-us"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data",
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "binance",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid",
+        "mobile-first"
+      ],
+      "productTypes": [
+        "financial-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "playful",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "bmw"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "bmw",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "bmw-m"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "bmw-m",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "calm",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "bold"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "bold",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "brutalism"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "brutalism",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast",
+        "minimal"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "calm",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "bugatti"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "bugatti",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "cafe"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "cafe",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic",
+        "minimal"
+      ],
+      "tones": [
+        "expressive",
+        "calm",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "cal",
+        "cal-com"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "cal",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "calm",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "canva"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "canva",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "cisco"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "cisco",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "playful",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "claude",
+        "claude-anthropic"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations",
+        "tables"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "claude",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "print-inspired"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "clay"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "clay",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "playful",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "claymorphism"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "controls"
+      ],
+      "contentNeeds": [
+        "visual-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "claymorphism",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "layered-cards"
+      ],
+      "productTypes": [
+        "visual-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "morphism"
+      ],
+      "tones": [
+        "polished",
+        "playful",
+        "morphism-effects"
+      ]
+    },
+    {
+      "aliases": [
+        "clean"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "clean",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "clickhouse"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "clickhouse",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "high-contrast"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "cohere"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "cohere",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace",
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "ai-product",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "coinbase"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "coinbase",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "financial-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "colorful"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "colorful",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "playful",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "composio"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "composio",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "contemporary"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "contemporary",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [
+        "accessible"
+      ],
+      "themes": [
+        "minimal",
+        "dark"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "playful",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "corporate"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "corporate",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate",
+        "minimal"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "calm",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "cosmic"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "cosmic",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic",
+        "dark"
+      ],
+      "tones": [
+        "expressive",
+        "playful",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "creative"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "creative",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "playful",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "cursor"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "cursor",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "dashboard"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "dashboard",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell",
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "enterprise-product",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate",
+        "dark"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "default",
+        "neutral-modern"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "navigation",
+        "tables"
+      ],
+      "contentNeeds": [
+        "general-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "default",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections",
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "starter-interface",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [
+        "responsive"
+      ],
+      "themes": [
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "neutral",
+        "starter"
+      ]
+    },
+    {
+      "aliases": [
+        "discord"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "discord",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "playful",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "dithered"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards",
+        "badges"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "dithered",
+      "industries": [
+        "entertainment"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "retro",
+        "minimal"
+      ],
+      "tones": [
+        "nostalgic",
+        "playful",
+        "calm",
+        "retro-nostalgic"
+      ]
+    },
+    {
+      "aliases": [
+        "doodle"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "doodle",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "playful",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "dramatic"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "dramatic",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "duolingo"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "duolingo",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "editorial"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "editorial",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic",
+        "print-inspired"
+      ],
+      "tones": [
+        "expressive",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "elegant"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "elegant",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate",
+        "minimal"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "calm",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "elevenlabs"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable",
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "elevenlabs",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "energetic"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "energetic",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "enterprise"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "enterprise",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "expo"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "expo",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "expressive"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "expressive",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "playful",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "fantasy"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "fantasy",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "ferrari"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "ferrari",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "figma"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "figma",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "playful",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "flat"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "flat",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "framer"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "framer",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "friendly"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "friendly",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "playful",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "futuristic"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "futuristic",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed"
+      ],
+      "tones": [
+        "distinctive",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "github"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "github",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "glassmorphism"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "controls"
+      ],
+      "contentNeeds": [
+        "visual-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "glassmorphism",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "layered-cards"
+      ],
+      "productTypes": [
+        "visual-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "morphism"
+      ],
+      "tones": [
+        "polished",
+        "morphism-effects"
+      ]
+    },
+    {
+      "aliases": [
+        "gradient"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "controls"
+      ],
+      "contentNeeds": [
+        "visual-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "gradient",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "layered-cards"
+      ],
+      "productTypes": [
+        "visual-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "morphism"
+      ],
+      "tones": [
+        "polished",
+        "playful",
+        "morphism-effects"
+      ]
+    },
+    {
+      "aliases": [
+        "hashicorp"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "hashicorp",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "hud",
+        "hud-design-system"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "hud",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections",
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "themed-experience",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "distinctive",
+        "calm",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "hugging-face",
+        "huggingface"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations",
+        "tables"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "huggingface",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "minimal"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "ibm"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "ibm",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "engaging",
+        "calm",
+        "playful",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "intercom"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "intercom",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "kami"
+      ],
+      "audiences": [
+        "readers"
+      ],
+      "componentNeeds": [
+        "article-navigation",
+        "tables",
+        "charts"
+      ],
+      "contentNeeds": [
+        "long-form-content",
+        "data-visualization"
+      ],
+      "densities": [
+        "spacious",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "kami",
+      "industries": [
+        "publishing"
+      ],
+      "layouts": [
+        "article-layout"
+      ],
+      "productTypes": [
+        "publication"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "print-inspired"
+      ],
+      "tones": [
+        "editorial",
+        "authoritative",
+        "editorial-print"
+      ]
+    },
+    {
+      "aliases": [
+        "kraken"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "kraken",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "financial-dashboard",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "lamborghini"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "lamborghini",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "calm",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "levels"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "navigation",
+        "cards"
+      ],
+      "contentNeeds": [
+        "mixed-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "levels",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "structured-grid"
+      ],
+      "productTypes": [
+        "content-platform"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "neutral"
+      ],
+      "tones": [
+        "structured",
+        "layout-structure"
+      ]
+    },
+    {
+      "aliases": [
+        "linear",
+        "linear-app"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "linear-app",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "calm",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "lingo"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "lingo",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic",
+        "minimal"
+      ],
+      "tones": [
+        "expressive",
+        "calm",
+        "playful",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "loom",
+        "loom-design-system"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "loom",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed"
+      ],
+      "tones": [
+        "distinctive",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "lovable"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "lovable",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "playful",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "luxury"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "luxury",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate",
+        "dark"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "mastercard"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "mastercard",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "financial-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "material"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "material",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [
+        "responsive"
+      ],
+      "themes": [
+        "corporate",
+        "minimal"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "calm",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "meta",
+        "meta-store"
+      ],
+      "audiences": [
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "product-cards",
+        "filters",
+        "checkout-forms"
+      ],
+      "contentNeeds": [
+        "product-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "meta",
+      "industries": [
+        "e-commerce-retail"
+      ],
+      "layouts": [
+        "catalog-grid"
+      ],
+      "productTypes": [
+        "e-commerce"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "tones": [
+        "commercial",
+        "friendly",
+        "e-commerce-retail"
+      ]
+    },
+    {
+      "aliases": [
+        "minimal"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "minimal",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "minimax"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "minimax",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "playful",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "mintlify"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "mintlify",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "miro"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "miro",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "modern"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "mission-control",
+        "mission-control-design-system"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "mission-control",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace",
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "developer-tool",
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "mistral-ai"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "mistral-ai",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "modern"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "modern",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "mongodb"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "mongodb",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "mono"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "mono",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "playful",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "neobrutalism"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "neobrutalism",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "neon"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "controls"
+      ],
+      "contentNeeds": [
+        "visual-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "neon",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "layered-cards"
+      ],
+      "productTypes": [
+        "visual-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "morphism"
+      ],
+      "tones": [
+        "polished",
+        "morphism-effects"
+      ]
+    },
+    {
+      "aliases": [
+        "neumorphism"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "controls"
+      ],
+      "contentNeeds": [
+        "visual-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "neumorphism",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "layered-cards"
+      ],
+      "productTypes": [
+        "visual-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "morphism",
+        "minimal"
+      ],
+      "tones": [
+        "polished",
+        "calm",
+        "playful",
+        "morphism-effects"
+      ]
+    },
+    {
+      "aliases": [
+        "nike"
+      ],
+      "audiences": [
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "product-cards",
+        "filters",
+        "checkout-forms"
+      ],
+      "contentNeeds": [
+        "product-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "nike",
+      "industries": [
+        "e-commerce-retail"
+      ],
+      "layouts": [
+        "catalog-grid"
+      ],
+      "productTypes": [
+        "e-commerce"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "commercial",
+        "friendly",
+        "calm",
+        "e-commerce-retail"
+      ]
+    },
+    {
+      "aliases": [
+        "notion"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "notion",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "calm",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "nvidia"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels",
+        "tables",
+        "charts"
+      ],
+      "contentNeeds": [
+        "media",
+        "data-visualization"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "nvidia",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "engaging",
+        "calm",
+        "playful",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "ollama"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "ollama",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "minimal"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "openai"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "spacious",
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "openai",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "opencode",
+        "opencode-ai"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "opencode-ai",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "pacman"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "pacman",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed"
+      ],
+      "tones": [
+        "distinctive",
+        "playful",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "paper"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards",
+        "badges"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "paper",
+      "industries": [
+        "entertainment"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "retro",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "nostalgic",
+        "playful",
+        "calm",
+        "retro-nostalgic"
+      ]
+    },
+    {
+      "aliases": [
+        "perplexity",
+        "perplexity-ai"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "perplexity",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "perspective"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "navigation",
+        "cards"
+      ],
+      "contentNeeds": [
+        "mixed-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "perspective",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "structured-grid"
+      ],
+      "productTypes": [
+        "content-platform"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "neutral"
+      ],
+      "tones": [
+        "structured",
+        "layout-structure"
+      ]
+    },
+    {
+      "aliases": [
+        "pinterest"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "pinterest",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "playstation"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "playstation",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "light"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "posthog"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "posthog",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "playful",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "premium"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "premium",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "professional"
+      ],
+      "audiences": [
+        "business-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables"
+      ],
+      "contentNeeds": [
+        "business-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "professional",
+      "industries": [
+        "corporate"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "enterprise-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "corporate"
+      ],
+      "tones": [
+        "professional",
+        "trustworthy",
+        "professional-corporate"
+      ]
+    },
+    {
+      "aliases": [
+        "publication"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "publication",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "raycast"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "raycast",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "refined"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "refined",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "renault"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "renault",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "replicate"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "replicate",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "playful",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "resend"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "resend",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "calm",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "retro"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards",
+        "badges"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "retro",
+      "industries": [
+        "entertainment"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "retro"
+      ],
+      "tones": [
+        "nostalgic",
+        "playful",
+        "retro-nostalgic"
+      ]
+    },
+    {
+      "aliases": [
+        "revolut"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "revolut",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "financial-dashboard"
+      ],
+      "requiredTraits": [
+        "accessible"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "runway",
+        "runwayml"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "runwayml",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "minimal",
+        "cinematic"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "sanity"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "sanity",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "sentry"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "sentry",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "shadcn"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "shadcn",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "shopify"
+      ],
+      "audiences": [
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "product-cards",
+        "filters",
+        "checkout-forms"
+      ],
+      "contentNeeds": [
+        "product-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "shopify",
+      "industries": [
+        "e-commerce-retail"
+      ],
+      "layouts": [
+        "catalog-grid"
+      ],
+      "productTypes": [
+        "e-commerce"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "tones": [
+        "commercial",
+        "friendly",
+        "e-commerce-retail"
+      ]
+    },
+    {
+      "aliases": [
+        "simple"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "simple",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "skeumorphism"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "controls"
+      ],
+      "contentNeeds": [
+        "visual-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "skeumorphism",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "layered-cards"
+      ],
+      "productTypes": [
+        "visual-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "morphism"
+      ],
+      "tones": [
+        "polished",
+        "playful",
+        "morphism-effects"
+      ]
+    },
+    {
+      "aliases": [
+        "slack"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "slack",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "sleek"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "cards",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "editorial-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "sleek",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "refined",
+        "modern-minimal"
+      ]
+    },
+    {
+      "aliases": [
+        "spacex"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "spacex",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "full-viewport-showcase"
+      ],
+      "productTypes": [
+        "marketing-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "minimal",
+        "cinematic"
+      ],
+      "tones": [
+        "engaging",
+        "calm",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "spacious"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "navigation",
+        "cards"
+      ],
+      "contentNeeds": [
+        "mixed-content"
+      ],
+      "densities": [
+        "comfortable",
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "spacious",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "structured-grid"
+      ],
+      "productTypes": [
+        "content-platform"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "neutral",
+        "minimal"
+      ],
+      "tones": [
+        "structured",
+        "calm",
+        "layout-structure"
+      ]
+    },
+    {
+      "aliases": [
+        "spotify"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "spotify",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "starbucks"
+      ],
+      "audiences": [
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "product-cards",
+        "filters",
+        "checkout-forms"
+      ],
+      "contentNeeds": [
+        "product-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "starbucks",
+      "industries": [
+        "e-commerce-retail"
+      ],
+      "layouts": [
+        "catalog-grid"
+      ],
+      "productTypes": [
+        "e-commerce"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "dark",
+        "print-inspired"
+      ],
+      "tones": [
+        "commercial",
+        "friendly",
+        "e-commerce-retail"
+      ]
+    },
+    {
+      "aliases": [
+        "storytelling"
+      ],
+      "audiences": [
+        "creators"
+      ],
+      "componentNeeds": [
+        "galleries"
+      ],
+      "contentNeeds": [
+        "portfolio-media"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "storytelling",
+      "industries": [
+        "creative"
+      ],
+      "layouts": [
+        "visual-canvas"
+      ],
+      "productTypes": [
+        "creative-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "artistic"
+      ],
+      "tones": [
+        "expressive",
+        "playful",
+        "creative-artistic"
+      ]
+    },
+    {
+      "aliases": [
+        "stripe"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "stripe",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "financial-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "supabase"
+      ],
+      "audiences": [
+        "technical-operators"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "filters"
+      ],
+      "contentNeeds": [
+        "data-visualization"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "supabase",
+      "industries": [
+        "backend-data"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "analytics-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "minimal"
+      ],
+      "tones": [
+        "calm",
+        "professional",
+        "backend-data"
+      ]
+    },
+    {
+      "aliases": [
+        "superhuman"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "superhuman",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "tesla"
+      ],
+      "audiences": [
+        "drivers",
+        "shoppers"
+      ],
+      "componentNeeds": [
+        "galleries",
+        "comparison-tables"
+      ],
+      "contentNeeds": [
+        "product-specifications"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "tesla",
+      "industries": [
+        "automotive"
+      ],
+      "layouts": [
+        "product-showcase",
+        "mobile-first"
+      ],
+      "productTypes": [
+        "automotive-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "premium",
+        "technical",
+        "calm",
+        "automotive"
+      ]
+    },
+    {
+      "aliases": [
+        "tetris"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "tetris",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed"
+      ],
+      "tones": [
+        "distinctive",
+        "playful",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "the-verge",
+        "theverge"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "theverge",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "together-ai"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "together-ai",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "tom-modern",
+        "tom-modern-design"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "general-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "tom-modern",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "starter-interface"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light"
+      ],
+      "tones": [
+        "neutral",
+        "starter"
+      ]
+    },
+    {
+      "aliases": [
+        "totality-festival"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "totality-festival",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections",
+        "mobile-first"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "distinctive",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "trading-terminal",
+        "trading-terminal-design-system"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "trading-terminal",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "themed",
+        "dark"
+      ],
+      "tones": [
+        "distinctive",
+        "themed-unique"
+      ]
+    },
+    {
+      "aliases": [
+        "uber"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "uber",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark",
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "engaging",
+        "calm",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "urdu",
+        "urdu-modern-indus-script-system"
+      ],
+      "audiences": [
+        "readers"
+      ],
+      "componentNeeds": [
+        "article-navigation"
+      ],
+      "contentNeeds": [
+        "long-form-content"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "urdu",
+      "industries": [
+        "publishing"
+      ],
+      "layouts": [
+        "article-layout"
+      ],
+      "productTypes": [
+        "publication"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "print-inspired",
+        "minimal"
+      ],
+      "tones": [
+        "editorial",
+        "personal",
+        "calm",
+        "editorial-personal-publication"
+      ]
+    },
+    {
+      "aliases": [
+        "vercel"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "vercel",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "minimal"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "vibrant"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "calls-to-action"
+      ],
+      "contentNeeds": [
+        "promotional-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "vibrant",
+      "industries": [
+        "marketing"
+      ],
+      "layouts": [
+        "hero-sections"
+      ],
+      "productTypes": [
+        "campaign-site"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "high-contrast"
+      ],
+      "tones": [
+        "bold",
+        "expressive",
+        "playful",
+        "bold-expressive"
+      ]
+    },
+    {
+      "aliases": [
+        "vintage"
+      ],
+      "audiences": [
+        "enthusiasts"
+      ],
+      "componentNeeds": [
+        "cards",
+        "badges"
+      ],
+      "contentNeeds": [
+        "storytelling"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "vintage",
+      "industries": [
+        "entertainment"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "themed-experience"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "retro"
+      ],
+      "tones": [
+        "nostalgic",
+        "playful",
+        "retro-nostalgic"
+      ]
+    },
+    {
+      "aliases": [
+        "vodafone"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels",
+        "tables"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "vodafone",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "content-feed"
+      ],
+      "productTypes": [
+        "consumer-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "visual",
+        "dark",
+        "light"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "voltagent"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "voltagent",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "warm-editorial"
+      ],
+      "audiences": [
+        "general-users"
+      ],
+      "componentNeeds": [
+        "forms",
+        "navigation",
+        "tables"
+      ],
+      "contentNeeds": [
+        "general-content"
+      ],
+      "densities": [
+        "comfortable"
+      ],
+      "excludedTraits": [],
+      "id": "warm-editorial",
+      "industries": [
+        "general"
+      ],
+      "layouts": [
+        "content-sections"
+      ],
+      "productTypes": [
+        "starter-interface"
+      ],
+      "requiredTraits": [
+        "responsive"
+      ],
+      "themes": [
+        "light",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "neutral",
+        "calm",
+        "playful",
+        "starter"
+      ]
+    },
+    {
+      "aliases": [
+        "warp"
+      ],
+      "audiences": [
+        "developers"
+      ],
+      "componentNeeds": [
+        "command-inputs",
+        "tables"
+      ],
+      "contentNeeds": [
+        "code",
+        "logs"
+      ],
+      "densities": [
+        "spacious"
+      ],
+      "excludedTraits": [],
+      "id": "warp",
+      "industries": [
+        "developer-tools"
+      ],
+      "layouts": [
+        "product-showcase"
+      ],
+      "productTypes": [
+        "developer-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "technical",
+        "focused",
+        "calm",
+        "developer-tools"
+      ]
+    },
+    {
+      "aliases": [
+        "webex"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "webex",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "productivity-saas"
+      ]
+    },
+    {
+      "aliases": [
+        "webflow"
+      ],
+      "audiences": [
+        "designers"
+      ],
+      "componentNeeds": [
+        "toolbars",
+        "panels"
+      ],
+      "contentNeeds": [
+        "visual-assets"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "webflow",
+      "industries": [
+        "design-creative"
+      ],
+      "layouts": [
+        "product-showcase",
+        "workspace"
+      ],
+      "productTypes": [
+        "design-tool"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "modern"
+      ],
+      "tones": [
+        "creative",
+        "clear",
+        "design-creative"
+      ]
+    },
+    {
+      "aliases": [
+        "wechat",
+        "wechat-design-system"
+      ],
+      "audiences": [
+        "communities"
+      ],
+      "componentNeeds": [
+        "messages",
+        "feeds",
+        "composer"
+      ],
+      "contentNeeds": [
+        "user-generated-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "wechat",
+      "industries": [
+        "social-messaging"
+      ],
+      "layouts": [
+        "conversation-layout"
+      ],
+      "productTypes": [
+        "social-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "friendly",
+        "conversational",
+        "social-messaging"
+      ]
+    },
+    {
+      "aliases": [
+        "wired"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "carousels"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "wired",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "editorial-grid",
+        "content-feed"
+      ],
+      "productTypes": [
+        "publication"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "print-inspired"
+      ],
+      "tones": [
+        "engaging",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "wise"
+      ],
+      "audiences": [
+        "financial-users"
+      ],
+      "componentNeeds": [
+        "tables",
+        "charts",
+        "transaction-forms"
+      ],
+      "contentNeeds": [
+        "financial-data"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "wise",
+      "industries": [
+        "fintech-crypto"
+      ],
+      "layouts": [
+        "dashboard-grid"
+      ],
+      "productTypes": [
+        "financial-dashboard"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "dark",
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "trustworthy",
+        "precise",
+        "calm",
+        "fintech-crypto"
+      ]
+    },
+    {
+      "aliases": [
+        "x-ai",
+        "xai"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "prompt-inputs",
+        "conversations"
+      ],
+      "contentNeeds": [
+        "generated-content"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "x-ai",
+      "industries": [
+        "ai-llm"
+      ],
+      "layouts": [
+        "workspace"
+      ],
+      "productTypes": [
+        "ai-product"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "dark",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "intelligent",
+        "professional",
+        "calm",
+        "ai-llm"
+      ]
+    },
+    {
+      "aliases": [
+        "xiaohongshu"
+      ],
+      "audiences": [
+        "consumers"
+      ],
+      "componentNeeds": [
+        "cards",
+        "feeds",
+        "composer"
+      ],
+      "contentNeeds": [
+        "media"
+      ],
+      "densities": [
+        "comfortable",
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "xiaohongshu",
+      "industries": [
+        "media-consumer"
+      ],
+      "layouts": [
+        "masonry-feed"
+      ],
+      "productTypes": [
+        "social-app"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "light",
+        "minimal"
+      ],
+      "tones": [
+        "engaging",
+        "calm",
+        "media-consumer"
+      ]
+    },
+    {
+      "aliases": [
+        "zapier"
+      ],
+      "audiences": [
+        "knowledge-workers"
+      ],
+      "componentNeeds": [
+        "forms",
+        "tables",
+        "navigation"
+      ],
+      "contentNeeds": [
+        "structured-content"
+      ],
+      "densities": [
+        "compact"
+      ],
+      "excludedTraits": [],
+      "id": "zapier",
+      "industries": [
+        "productivity-saas"
+      ],
+      "layouts": [
+        "application-shell"
+      ],
+      "productTypes": [
+        "saas-workspace"
+      ],
+      "requiredTraits": [],
+      "themes": [
+        "modern",
+        "minimal",
+        "print-inspired"
+      ],
+      "tones": [
+        "clear",
+        "professional",
+        "calm",
+        "productivity-saas"
+      ]
+    }
+  ],
+  "schemaVersion": "ui-design-system-selection-profiles/v1"
+}
