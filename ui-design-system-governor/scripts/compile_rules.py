@@ -166,7 +166,7 @@ def compile_rule_bundle(system_dir: str | Path) -> dict[str, Any]:
 
     design = _manifest_relative(root, manifest_files.get("design"), "$.manifest.files.design")
     tokens_file = _manifest_relative(root, manifest_files.get("tokens"), "$.manifest.files.tokens")
-    components = _manifest_relative(root, manifest_files.get("components"), "$.manifest.files.components", optional=True)
+    components = _manifest_relative(root, manifest_files.get("components"), "$.manifest.files.components")
     usage = _manifest_relative(root, manifest.get("usage"), "$.manifest.usage", optional=True)
 
     files = ["manifest.json", design[0], tokens_file[0]]

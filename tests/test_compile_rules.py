@@ -5,6 +5,7 @@ import unittest
 
 from tests.support import SCRIPTS_ROOT
 from compile_rules import compile_rule_bundle, extract_markdown_rules, parse_root_tokens
+from contracts import ContractError
 
 
 CSS = """.card { --ignored: red; }
@@ -94,6 +95,13 @@ class CompileRulesTests(unittest.TestCase):
             self.assertTrue(bundle["tokens"])
             self.assertTrue(bundle["rules"])
             self.assertIn("components.html", bundle["files"])
+
+    def test_declared_components_file_is_required(self):
+        with TemporaryDirectory() as temp_dir:
+            system = write_system(Path(temp_dir))
+            (system / "components.html").unlink()
+            with self.assertRaisesRegex(ContractError, r"\$\.manifest\.files\.components"):
+                compile_rule_bundle(system)
 
     def test_usage_rules_are_compiled_when_file_exists(self):
         with TemporaryDirectory() as temp_dir:
