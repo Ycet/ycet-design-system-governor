@@ -1,0 +1,7 @@
+:root {
+  --local-reference: var(--unknown-token);
+}
+.card {
+  color: #ff00ff;
+  background: var(--known-token);
+}
