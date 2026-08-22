@@ -1,0 +1,7 @@
+# Normalize line endings for source text files
+* text=auto
+
+# Design system assets are byte-addressed by SHA-256 inventory hashes;
+# never let Git convert their line endings on any platform.
+design-systems/** -text
+outputs/ycet-design-system-governor/assets/** -text
