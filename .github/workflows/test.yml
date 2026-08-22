@@ -26,6 +26,6 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -p "test_*.py" -v
       - name: Run official quick-validator snapshot
-        run: python .github/scripts/official_quick_validate.py ui-design-system-governor
+        run: python .github/scripts/official_quick_validate.py outputs/ycet-design-system-governor
       - name: Validate complete package
-        run: python ui-design-system-governor/scripts/validate_package.py --skill-root ui-design-system-governor --expected-system-count 151
+        run: python outputs/ycet-design-system-governor/scripts/validate_package.py --skill-root outputs/ycet-design-system-governor --expected-system-count 151

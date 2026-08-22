@@ -3,7 +3,7 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SKILL_ROOT = REPO_ROOT / "ui-design-system-governor"
+SKILL_ROOT = REPO_ROOT / "outputs" / "ycet-design-system-governor"
 
 
 class SkillStructureTests(unittest.TestCase):
