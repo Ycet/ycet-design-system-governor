@@ -1,9 +1,9 @@
 ---
-name: ui-design-system-governor
+name: ycet-design-system-governor
 description: Use when creating, redesigning, or auditing frontend, product-page, or prototype UI where a bundled design system should guide visual style, tokens, components, layout, or design consistency.
 ---
 
-# UI Design System Governor
+# Ycet Design System Governor
 
 ## Core principle
 
